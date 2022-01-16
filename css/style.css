@@ -5,5 +5,5 @@
   font-family: "Open Sans", sans-serif;
 }
 .jumbotron {
-  background-image: url("/assets/2.jpg");
+  background-image: url("../assets/2.jpg");
 }
