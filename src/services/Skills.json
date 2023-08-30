@@ -1,0 +1,32 @@
+[
+  {
+    "logo": "/logo/bootstrap-icon.svg",
+    "label": "Bootstrap",
+    "color": "#7811F9"
+  },
+  {
+    "logo": "/logo/html-icon.svg",
+    "label": "HTML",
+    "color": "#F16529"
+  },
+  {
+    "logo": "/logo/css-icon.svg",
+    "label": "CSS",
+    "color": "#2062AF"
+  },
+  {
+    "logo": "/logo/tailwind-css-icon.svg",
+    "label": "Tailwind CSS",
+    "color": "#06B6D4"
+  },
+  {
+    "logo": "/logo/react-js-icon.svg",
+    "label": "React JS",
+    "color": "#00D8FF"
+  },
+  {
+    "logo": "/logo/javascript-icon.svg",
+    "label": "JavaScript",
+    "color": "#F7DF1E"
+  }
+]
