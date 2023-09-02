@@ -78,7 +78,7 @@ export const Navbar = () => {
           className="hidden md:block border-solid p-2 rounded-xl shadow cursor-pointer w-10 md:w-9 dark:text-white hover:bg-slate-200 dark:hover:bg-gray-950 text-xl"
           onClick={handleThemeSwitch}
         >
-          {darkMode === "light" ? <RiSunLine /> : <RiMoonClearLine />}
+          {darkMode === "light" ? <RiMoonClearLine /> : <RiSunLine />}
         </motion.button>
 
         {isOpen && (
