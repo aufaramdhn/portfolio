@@ -4,7 +4,7 @@ export const Project = () => {
   return (
     <section
       id="project"
-      className="container font-poppins mx-auto px-10 md:px-20 pb-20 bg-slate-100 dark:bg-slate-800"
+      className="font-poppins mx-auto px-10 md:px-20 pb-20 bg-slate-100 dark:bg-slate-800"
     >
       <h1 className="text-4xl text-center pt-16 pb-16 font-bold dark:text-white">
         Project

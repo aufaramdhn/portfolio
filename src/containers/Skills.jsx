@@ -5,7 +5,7 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      className="container font-poppins px-10 md:px-20 pb-20 dark:bg-gray-800"
+      className="font-poppins px-10 md:px-20 pb-20 dark:bg-gray-800"
     >
       <h1 className="text-4xl text-center pt-20 font-bold pb-16 dark:text-white">
         Skills
