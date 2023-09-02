@@ -84,18 +84,10 @@ export const Navbar = () => {
         {isOpen && (
           <>
             <div className="flex md:hidden h-[125px] dark:text-white flex-col md:gap-2 gap-2 my-3 cursor-pointer">
-              <div>
-                <a href="#home">Home</a>
-              </div>
-              <div>
-                <a href="#about">About</a>
-              </div>
-              <div>
-                <a href="#skills">Skills</a>
-              </div>
-              <div>
-                <a href="#project">Project</a>
-              </div>
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#project">Project</a>
             </div>
             <motion.button
               whileHover={{ scale: 1.1 }}
@@ -103,7 +95,7 @@ export const Navbar = () => {
               className="dark:text-white hover:bg-slate-200 dark:hover:bg-gray-950 p-2 rounded-xl shadow cursor-pointer w-9 text-xl md:hidden"
               onClick={handleThemeSwitch}
             >
-              {darkMode === "light" ? <RiSunLine /> : <RiMoonClearLine />}
+              {darkMode === "light" ? <RiMoonClearLine /> : <RiSunLine />}
             </motion.button>
           </>
         )}
