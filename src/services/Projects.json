@@ -1,24 +1,24 @@
 [
   {
-    "image": "./image-project/background.jpg",
+    "image": "image-project/background.jpg",
     "title": "Project",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos.",
     "technology": "HTML, CSS, JAVASCRIPT"
   },
   {
-    "image": "./image-project/background.jpg",
+    "image": "image-project/background.jpg",
     "title": "Project",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos.",
     "technology": "HTML, CSS, JAVASCRIPT"
   },
   {
-    "image": "./image-project/background.jpg",
+    "image": "image-project/background.jpg",
     "title": "Project",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos.",
     "technology": "HTML, CSS, JAVASCRIPT"
   },
   {
-    "image": "./image-project/background.jpg",
+    "image": "image-project/background.jpg",
     "title": "Project",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos.",
     "technology": "HTML, CSS, JAVASCRIPT"
