@@ -1,4 +1,4 @@
-import projects from "../services/Projects.json";
+import projects from "../../services/Projects.json";
 
 export const Project = () => {
   return (
