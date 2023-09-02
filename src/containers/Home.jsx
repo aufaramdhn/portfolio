@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { TypeWriter } from "../components/Typewriter.jsx";
+import { TypeWriter } from "../components/Typewriter";
 import Avatar from "/profile/avatar.png";
 import { RiDownload2Line } from "react-icons/ri";
-import { SocialMedia } from "../components/SocialMedia.jsx";
+import { SocialMedia } from "../components/SocialMedia";
 
 export const Home = () => {
   return (
