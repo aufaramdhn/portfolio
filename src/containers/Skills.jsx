@@ -1,4 +1,4 @@
-import skills from "../../services/Skills.json";
+import skills from "../services/Skills.json";
 import { motion } from "framer-motion";
 
 export const Skills = () => {
