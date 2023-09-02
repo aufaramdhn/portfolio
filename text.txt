@@ -1,0 +1,5 @@
+black: "#2D2D34",
+white: "#F1E4E8",
+orange: "#EF8354",
+purple: "#977390",
+green: "#445F5F",
