@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RiArrowUpLine } from "react-icons/ri";
 
-export const BackToTop = () => {
+export const ScrollToTop = () => {
   const [visible, setVisible] = useState(false);
 
   const toggleVisible = () => {
