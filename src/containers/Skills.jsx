@@ -5,17 +5,23 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      className="font-poppins px-10 md:px-20 pb-20 dark:bg-gray-800"
+      className="px-10 pb-20 font-poppins md:px-20 dark:bg-gray-800"
     >
-      <h1 className="text-4xl text-center pt-20 font-bold pb-16 dark:text-white">
+      <h1
+        data-aos="fade-up"
+        className="pt-20 pb-16 text-4xl font-bold text-center dark:text-white"
+      >
         Skills
       </h1>
-      <div className="grid md:grid-cols-4 lg:grid-cols-8 md:gap-5 lg:gap-10 grid-cols-2 gap-5">
+      <div
+        data-aos="fade-left"
+        className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-6 md:gap-10"
+      >
         {skills.map((skill, index) => (
           <motion.div
             key={index}
             whileHover={{ scale: 1.2 }}
-            className="rounded-xl flex flex-col items-center justify-between p-3 shadow bg-slate-100 dark:bg-gray-900 dark:text-white"
+            className="flex flex-col items-center justify-between p-3 shadow rounded-xl bg-slate-100 dark:bg-gray-900 dark:text-white"
           >
             <img src={skill.logo} width={40} height={40} />
             <span className={`font-bold pt-3 text-[${skill.color}]`}>

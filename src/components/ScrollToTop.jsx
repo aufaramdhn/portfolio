@@ -6,7 +6,7 @@ export const ScrollToTop = () => {
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 100) {
+    if (scrolled > 50) {
       setVisible(true);
     } else if (scrolled <= 300) {
       setVisible(false);
@@ -17,8 +17,6 @@ export const ScrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
-      /* you can also use 'auto' behaviour
-         in place of 'smooth' */
     });
   };
 
@@ -26,7 +24,7 @@ export const ScrollToTop = () => {
 
   return (
     <div className={`${visible ? "fixed" : "hidden"} bottom-5 right-3`}>
-      <div className="text-2xl z-50 p-2 rounded-full dark:bg-gray-700 bg-slate-300 hover:bg-slate-400 cursor-pointer dark:text-white dark:hover:bg-gray-950">
+      <div className="z-50 p-2 text-2xl rounded-full cursor-pointer dark:bg-gray-700 bg-slate-300 hover:bg-slate-400 dark:text-white dark:hover:bg-gray-950">
         <RiArrowUpLine onClick={scrollToTop} />
       </div>
     </div>

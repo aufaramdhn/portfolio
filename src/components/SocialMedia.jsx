@@ -32,13 +32,13 @@ export const SocialMedia = () => {
     // },
   ];
   return (
-    <div className="flex mt-4">
+    <div data-aos="fade-up" className="flex mt-4">
       {Contact.map((item, index) => (
         <motion.div
           key={index}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
-          className="text-2xl border-2 border-solid text-black hover:bg-black hover:text-white border-black rounded-full p-2 me-2 cursor-pointer dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black"
+          className="p-2 text-lg text-black border-2 border-black border-solid rounded-full cursor-pointer hover:bg-black hover:text-white me-2 dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black"
         >
           <a href={item.link}>{item.icon}</a>
         </motion.div>
