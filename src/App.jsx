@@ -20,12 +20,12 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <ScrollToTop />
       <Home />
       <About />
       {/* <Skills /> */}
       <Project />
       {/* <GithubContribution /> */}
+      <ScrollToTop />
       <Footer />
     </>
   );
