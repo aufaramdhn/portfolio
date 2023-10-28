@@ -1,26 +1,26 @@
 [
   {
     "image": "image-project/background.jpg",
-    "title": "Project",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos.",
-    "technology": "HTML, CSS, JAVASCRIPT"
+    "title": "Koperasi",
+    "description": "Sistem Aplikasi Koperasi Simpan Pinjam, untuk mempermudah proses pengimputan dan penyimpanan data.",
+    "technology": "PHP, Bootstrap, MySQL"
   },
   {
     "image": "image-project/background.jpg",
-    "title": "Project",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos.",
-    "technology": "HTML, CSS, JAVASCRIPT"
+    "title": "UI Aplikasi Kecantikan",
+    "description": "UI atau tampilan Aplikasi kecantikan berbasis mobile layaknya online shop",
+    "technology": "React Native"
   },
   {
     "image": "image-project/background.jpg",
-    "title": "Project",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos.",
-    "technology": "HTML, CSS, JAVASCRIPT"
+    "title": "SPP-APP",
+    "description": "Aplikasi SPP sederhana",
+    "technology": "PHP, MySQL"
   },
   {
     "image": "image-project/background.jpg",
-    "title": "Project",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos.",
-    "technology": "HTML, CSS, JAVASCRIPT"
+    "title": "Clone Aplikasi Gojek",
+    "description": "Cloning Aplikasi Gojek menggunakan React Native",
+    "technology": "React Native"
   }
 ]

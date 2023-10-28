@@ -14,12 +14,12 @@ export const Skills = () => {
         Skills
       </h1>
       <div
-        data-aos="fade-left"
         className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-6 md:gap-10"
       >
         {skills.map((skill, index) => (
           <motion.div
             key={index}
+            data-aos="fade-left"
             whileHover={{ scale: 1.2 }}
             className="flex flex-col items-center justify-between p-3 shadow rounded-xl bg-slate-100 dark:bg-gray-900 dark:text-white"
           >

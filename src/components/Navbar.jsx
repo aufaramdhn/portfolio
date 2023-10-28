@@ -52,7 +52,7 @@ export const Navbar = () => {
           : "bg-white dark:bg-gray-800 text-black"
       }`}
     >
-      <div className="md:flex justify-between items-center py-3 px-6 md:px-12 font-poppins">
+      <div className="items-center justify-between px-6 py-3 md:flex md:px-12 font-poppins">
         <div className="flex items-center justify-between">
           <span className="text-xl font-bold dark:text-white">aufaramdhn</span>
           <div className="block md:hidden">
@@ -66,16 +66,16 @@ export const Navbar = () => {
             </motion.button>
           </div>
         </div>
-        <div className="hidden dark:text-white md:flex flex-col md:flex-row md:gap-10 gap-2 my-3 cursor-pointer">
+        <div className="flex-col hidden gap-2 my-3 cursor-pointer dark:text-white md:flex md:flex-row md:gap-10">
           <a href="#home">Home</a>
           <a href="#about">About</a>
-          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
           <a href="#project">Project</a>
         </div>
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
-          className="hidden md:block border-solid p-2 rounded-xl shadow cursor-pointer w-10 md:w-9 dark:text-white hover:bg-slate-200 dark:hover:bg-gray-950 text-xl"
+          className="hidden w-10 p-2 text-xl border-solid shadow cursor-pointer md:block rounded-xl md:w-9 dark:text-white hover:bg-slate-200 dark:hover:bg-gray-950"
           onClick={handleThemeSwitch}
         >
           {darkMode === "light" ? <RiMoonClearLine /> : <RiSunLine />}
@@ -92,7 +92,7 @@ export const Navbar = () => {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.8 }}
-              className="dark:text-white hover:bg-slate-200 dark:hover:bg-gray-950 p-2 rounded-xl shadow cursor-pointer w-9 text-xl md:hidden"
+              className="p-2 text-xl shadow cursor-pointer dark:text-white hover:bg-slate-200 dark:hover:bg-gray-950 rounded-xl w-9 md:hidden"
               onClick={handleThemeSwitch}
             >
               {darkMode === "light" ? <RiMoonClearLine /> : <RiSunLine />}

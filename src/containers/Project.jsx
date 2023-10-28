@@ -5,7 +5,7 @@ export const Project = () => {
   return (
     <section
       id="project"
-      className="px-10 pb-20 mx-auto font-poppins md:px-20 bg-slate-100 dark:bg-slate-800"
+      className="px-10 pb-20 mx-auto font-poppins md:px-20 bg-slate-50 dark:bg-slate-800"
     >
       <h1
         data-aos="fade-up"
@@ -20,17 +20,17 @@ export const Project = () => {
         {projects.map((project, index) => (
           <Card
             key={index}
-            className="z-10 mb-5 bg-white md:mb-0 dark:bg-gray-900"
+            className="mb-5 bg-white md:mb-0 dark:bg-gray-900"
           >
             <img
               src={project.image}
               alt=""
               className="rounded-tr-xl rounded-tl-xl"
             />
-            <div className="p-3 dark:text-white">
-              <span className="text-xl font-bold">{project.title}</span>
+            <div className="p-3  dark:text-white">
+              <h4 className="text-xl font-bold">{project.title}</h4>
               <p className="my-3 text-sm">{project.description}</p>
-              <span className="font-bold text-md">Technology Used</span>
+              <h5 className="font-bold text-md">Technology Used</h5>
               <p className="mt-2 text-sm">{project.technology}</p>
             </div>
           </Card>

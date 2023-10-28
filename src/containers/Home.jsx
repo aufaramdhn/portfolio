@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Avatar from "/profile/avatar.png";
 import { RiDownload2Line } from "react-icons/ri";
 import { SocialMedia } from "../components/SocialMedia";
-import { TypeWriter } from "../components/Typewriter";
+import {TypeWriter} from "../components/TypeWriter"
 import { Card } from "../components/Card";
 
 export const Home = () => {

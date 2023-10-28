@@ -6,7 +6,7 @@ import {
   GITHUB_USER_QUERY,
 } from "../constants/Github";
 
-export const GithubContribution = () => {
+const GithubContribution = () => {
   const [data, setData] = useState();
 
   async function getGithubData() {
@@ -32,5 +32,8 @@ export const GithubContribution = () => {
   useEffect(() => {
     getGithubData();
   }, []);
+
   return <div>GithubContribution</div>;
 };
+
+export default GithubContribution;
