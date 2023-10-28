@@ -4,7 +4,7 @@ import {
   GITHUB_ACCOUNT,
   GITHUB_API_BASE_URL,
   GITHUB_USER_QUERY,
-} from "../constants/Github";
+} from "../../constants/Github";
 
 const GithubContribution = () => {
   const [data, setData] = useState();
@@ -33,7 +33,11 @@ const GithubContribution = () => {
     getGithubData();
   }, []);
 
-  return <div>GithubContribution</div>;
+  return (
+    <div className="my-20 mt-10">
+      <h1 className="text-xl font-bold text-center">Github Contributions</h1>
+    </div>
+  );
 };
 
 export default GithubContribution;
